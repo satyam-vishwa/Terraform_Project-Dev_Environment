@@ -1,0 +1,14 @@
+
+graph.dot
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Terraform lock file 
+.terraform.lock.hcl
+
+# Ignore Terraform plugin directory
+.terraform/
+
+# Ignore variable files with sensitive data
+*.tfvars
