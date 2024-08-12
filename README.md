@@ -28,6 +28,7 @@ This Terraform project sets up a foundational AWS infrastructure suitable for a 
    - When the development environment is no longer needed, run `terraform destroy` to clean up all the resources created. This ensures that you don't incur unnecessary costs.
 
    <center>High Level Overview</center>
+   
    ![High Level Overview ](./Images/High-level%20Overview.png)
    
 
@@ -61,6 +62,7 @@ This Terraform project sets up a foundational AWS infrastructure suitable for a 
    - Ensures the correct routing of traffic within the subnet by associating the route table with the subnet. This is vital for maintaining the integrity and functionality of the network setup.
 
    <center>Resource Dependency Chart</center>
+
    ![Resource Dependency Chart](./Images/resource_dependency.png)
 
 ## How This Serves as a Development Environment
