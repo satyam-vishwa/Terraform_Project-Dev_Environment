@@ -1,5 +1,5 @@
-# Project Overview :: Dev Environemt Using Terraform 
-This Terraform project sets up a foundational AWS infrastructure suitable for a development environment. The diagram visualizes the dependencies between various resources, illustrating how they come together to create a secure, scalable, and manageable environment for development activities.
+# Project Overview :: Dev Environment Using Terraform 
+This Terraform project establishes a foundational AWS infrastructure suitable for a development environment. The attached diagram illustrates the dependencies between various resources, demonstrating how they combine to create a secure, scalable, and manageable environment for development activities.
 
 ## Getting Started with Terraform and AWS
 
