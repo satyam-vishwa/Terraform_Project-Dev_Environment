@@ -27,7 +27,7 @@ This Terraform project sets up a foundational AWS infrastructure suitable for a 
 8. **Destroy the Environment:**
    - When the development environment is no longer needed, run `terraform destroy` to clean up all the resources created. This ensures that you don't incur unnecessary costs.
 
-   ![High Level Overview ](./Images/Resume_Foundation_Project.drawio.png)
+   ![High Level Overview ](./Images/High-level%20Overview.png)
 
 
 ## Resource Breakdown
@@ -59,7 +59,7 @@ This Terraform project sets up a foundational AWS infrastructure suitable for a 
 9. **Route Table Association (`aws_route_table_association.dev_public_assoc`):**
    - Ensures the correct routing of traffic within the subnet by associating the route table with the subnet. This is vital for maintaining the integrity and functionality of the network setup.
 
-   ![High Level Overview ](./Images/resource_dependency.png)
+   ![Resource Dependency Chart ](./Images/resource_dependency.png)
 
 ## How This Serves as a Development Environment
 
